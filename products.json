@@ -5,7 +5,7 @@
     "price": "500",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
     "description": "وصف",
-    "category": "Food "
+    "category": "sandwiches"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "price": "100",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
     "description": "وصف",
-    "category": "Food "
+    "category": "sandwiches"
   },
   {
     "id": "3",
@@ -21,36 +21,89 @@
     "price": "100",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
     "description": "undefined",
-    "category": "Bev"
+    "category": "beverages"
+  },
+  {
+    "id": "4",
+    "name": "عصير تفاح",
+    "price": "120",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "description": "عصير تفاح طازج",
+    "category": "beverages"
+  },
+  {
+    "id": "5",
+    "name": "بيتزا",
+    "price": "300",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "description": "بيتزا بالجبن والخضروات",
+    "category": "food"
+  },
+  {
+    "id": "6",
+    "name": "ساندويتش جبنة",
+    "price": "150",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "description": "ساندويتش جبنة مع الخضروات",
+    "category": "sandwiches"
+  },
+  {
+    "id": "7",
+    "name": "شاي أخضر",
+    "price": "80",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "description": "شاي أخضر صحي",
+    "category": "beverages"
+  },
+  {
+    "id": "8",
+    "name": "برجر دجاج",
+    "price": "250",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "description": "برجر دجاج مع الخضروات والصلصات",
+    "category": "food"
+  },
+  {
+    "id": "9",
+    "name": "عصير ليمون",
+    "price": "90",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "description": "",
+    "category": "beverages"
   },
   {
     "name": "Food",
     "price": "500",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
-    "description": "وصف"
+    "description": "وصف",
+    "category": "food"
   },
   {
     "name": "H",
     "price": "100",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
-    "description": "Hhhhhhhhhh"
+    "description": "Hhhhhhhhhh",
+    "category": "other"
   },
   {
     "name": "100",
     "price": "100",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
-    "description": " "
+    "description": " ",
+    "category": "other"
   },
   {
-    "name": "Sandwich ",
+    "name": "Sandwich",
     "price": "200",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
-    "description": "Sandwich "
+    "description": "Sandwich",
+    "category": "sandwiches"
   },
   {
-    "name": "Food ",
+    "name": "Food",
     "price": "200",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
-    "description": "Hhh"
+    "description": "Hhh",
+    "category": "food"
   }
 ]
