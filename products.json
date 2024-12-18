@@ -34,10 +34,12 @@
     "description": " "
   },
   {
+    "id": "undefined",
     "name": "Sandwich ",
     "price": "200",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
-    "description": "Sandwich "
+    "description": "Sandwich ",
+    "category": "undefined",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   },
   {
     "name": "Food ",
@@ -446,7 +448,7 @@
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   },
   {
-    "id": "undefined",
+    "id": "67",
     "name": "H2",
     "price": "2",
     "description": "R",
@@ -460,5 +462,13 @@
     "description": "عصير\n",
     "category": "Bev",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+  },
+  {
+    "id": "66",
+    "name": "Fruit ",
+    "price": "90",
+    "description": "Fruit ",
+    "category": "Food ",
+    "image": " "
   }
 ]
