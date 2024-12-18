@@ -48,106 +48,106 @@
   {
     "id": "9",
     "name": "كركديه",
-    "price": "7.73",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "price": "60",
     "description": "وصف كركديه",
-    "category": "hot-drinks"
+    "category": "hot-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
     "id": "10",
     "name": "كركديه",
-    "price": "38.48",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "price": "60",
     "description": "وصف كركديه",
-    "category": "hot-drinks"
+    "category": "hot-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
     "id": "11",
     "name": "شاي",
-    "price": "10.49",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "price": "50",
     "description": "وصف شاي",
-    "category": "hot-drinks"
+    "category": "hot-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
     "id": "12",
     "name": "حمص",
-    "price": "45.93",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "price": "150",
     "description": "وصف حمص",
-    "category": "appetizers"
+    "category": "appetizers",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
     "id": "13",
     "name": "كشري",
-    "price": "10.46",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "price": "70",
     "description": "وصف كشري",
-    "category": "main"
+    "category": "main",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   },
   {
     "id": "14",
     "name": "شاي",
-    "price": "31.05",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "price": "40",
     "description": "وصف شاي",
-    "category": "hot-drinks"
+    "category": "hot-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   },
   {
     "id": "15",
     "name": "عصير قصب",
-    "price": "31.25",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "price": "70",
     "description": "وصف عصير قصب",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
   },
   {
     "id": "16",
     "name": "ساندوتش فلافل",
-    "price": "24.85",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "price": "50",
     "description": "وصف ساندوتش فلافل",
-    "category": "sandwiches"
+    "category": "sandwiches",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   },
   {
     "id": "17",
     "name": "شاي",
-    "price": "31.29",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "price": "60",
     "description": "وصف شاي",
-    "category": "hot-drinks"
+    "category": "hot-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
     "id": "18",
     "name": "عصير برتقال",
-    "price": "33.42",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "price": "60",
     "description": "وصف عصير برتقال",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   },
   {
     "id": "19",
     "name": "ساندوتش فلافل",
-    "price": "44.11",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "price": "100",
     "description": "وصف ساندوتش فلافل",
-    "category": "sandwiches"
+    "category": "sandwiches",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
   },
   {
     "id": "20",
     "name": "عصير قصب",
-    "price": "29.48",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "price": "90",
     "description": "وصف عصير قصب",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
     "id": "21",
     "name": "عصير قصب",
-    "price": "9.52",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "price": "90",
     "description": "وصف عصير قصب",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
   },
   {
     "id": "22",
@@ -336,10 +336,10 @@
   {
     "id": "45",
     "name": "عصير برتقال",
-    "price": "5.75",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "price": "60",
     "description": "وصف عصير برتقال",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
   },
   {
     "id": "46",
@@ -352,103 +352,105 @@
   {
     "id": "47",
     "name": "مقالي خضروات",
-    "price": "12.8",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "price": "70",
     "description": "وصف مقالي خضروات",
-    "category": "appetizers"
+    "category": "appetizers",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
   },
   {
     "id": "48",
     "name": "عصير قصب",
-    "price": "16.44",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "price": "50",
     "description": "وصف عصير قصب",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
   },
   {
     "id": "49",
     "name": "ساندوتش فلافل",
-    "price": "17.62",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "price": "200",
     "description": "وصف ساندوتش فلافل",
-    "category": "sandwiches"
+    "category": "sandwiches",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
     "id": "50",
     "name": "عصير برتقال",
-    "price": "10.94",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "price": "50",
     "description": "وصف عصير برتقال",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
   },
   {
     "id": "51",
     "name": "عصير تفاح",
-    "price": "16.33",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "price": "40",
     "description": "وصف عصير تفاح",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
   },
   {
     "id": "52",
     "name": "عصير تفاح",
-    "price": "39.77",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "price": "60",
     "description": "وصف عصير تفاح",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
     "id": "53",
     "name": "برجر لحم",
-    "price": "38.55",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "price": "400",
     "description": "وصف برجر لحم",
-    "category": "sandwiches"
+    "category": "sandwiches",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   },
   {
     "id": "54",
     "name": "بابا غنوج",
-    "price": "39.53",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "price": "250",
     "description": "وصف بابا غنوج",
-    "category": "appetizers"
+    "category": "appetizers",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
     "id": "55",
     "name": "عصير قصب",
-    "price": "19.22",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "price": "180",
     "description": "وصف عصير قصب",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
     "id": "56",
     "name": "عصير تفاح",
-    "price": "8.55",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "price": "300",
     "description": "وصف عصير تفاح",
-    "category": "cold-drinks"
+    "category": "cold-drinks",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   },
   {
     "id": "57",
     "name": "سمبوسة",
-    "price": "12.71",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "price": "550",
     "description": "وصف سمبوسة",
-    "category": "appetizers"
+    "category": "appetizers",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   },
   {
     "id": "58",
     "name": "ملوخية بالأرانب",
-    "price": "21.57",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "price": "500",
     "description": "وصف ملوخية بالأرانب",
-    "category": "main"
+    "category": "main",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   },
   {
-    "name": "1",
+    "id": "undefined",
+    "name": "H2",
     "price": "2",
     "description": "R",
-    "category": "Y"
+    "category": "Y",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
   }
 ]
