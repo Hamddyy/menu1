@@ -452,5 +452,13 @@
     "description": "R",
     "category": "Y",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+  },
+  {
+    "id": " 60",
+    "name": "نعناع",
+    "price": "60",
+    "description": "عصير\n",
+    "category": "Bev",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   }
 ]
