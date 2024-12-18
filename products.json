@@ -1,138 +1,56 @@
-{
-  "menu": {
-    "main_dishes": [
-      {
-        "id": 1,
-        "name": "كبسة دجاج",
-        "description": "أرز مع الدجاج المتبل والمطهو بطريقة مميزة",
-        "price": 25.0
-      },
-      {
-        "id": 2,
-        "name": "مناسف لحم",
-        "description": "أرز مع لحم الضأن وصلصة الزبادي",
-        "price": 30.0
-      },
-      {
-        "id": 3,
-        "name": "ملوخية بالأرانب",
-        "description": "ملوخية مع لحم الأرانب المطهو على نار هادئة",
-        "price": 28.0
-      },
-      {
-        "id": 4,
-        "name": "كشري",
-        "description": "أرز مع عدس ومعكرونة وصلصة طماطم حارة",
-        "price": 20.0
-      },
-      {
-        "id": 5,
-        "name": "طاجن بامية باللحم",
-        "description": "طاجن بامية مع لحم الضأن المطهو بالصلصة",
-        "price": 32.0
-      },
-      {
-        "id": 6,
-        "name": "فطير مشلتت",
-        "description": "فطير مشلتت مع العسل أو الجبنة",
-        "price": 18.0
-      }
-    ],
-    "sandwiches": [
-      {
-        "id": 7,
-        "name": "شاورما دجاج",
-        "description": "شاورما دجاج مع الخبز الطازج والصلصات",
-        "price": 12.0
-      },
-      {
-        "id": 8,
-        "name": "برجر لحم",
-        "description": "برجر لحم مع الجبن والخضروات",
-        "price": 15.0
-      },
-      {
-        "id": 9,
-        "name": "ساندوتش فلافل",
-        "description": "ساندوتش فلافل مع الطحينة والخضروات",
-        "price": 8.0
-      },
-      {
-        "id": 10,
-        "name": "ساندوتش طعمية",
-        "description": "طعمية مع طحينة وخبز بلدي",
-        "price": 6.0
-      },
-      {
-        "id": 11,
-        "name": "ساندوتش كبدة",
-        "description": "كبدة مشوية مع البصل والخضروات",
-        "price": 14.0
-      }
-    ],
-    "appetizers": [
-      {
-        "id": 12,
-        "name": "حمص",
-        "description": "حمص بالطحينة مع زيت الزيتون",
-        "price": 8.0
-      },
-      {
-        "id": 13,
-        "name": "مقالي خضروات",
-        "description": "خضروات مقليّة مع صوص الطماطم الحار",
-        "price": 10.0
-      },
-      {
-        "id": 14,
-        "name": "بابا غنوج",
-        "description": "بابا غنوج مع الطحينة وزيت الزيتون",
-        "price": 9.0
-      },
-      {
-        "id": 15,
-        "name": "ورق عنب",
-        "description": "ورق عنب محشي بالأرز والتوابل",
-        "price": 12.0
-      },
-      {
-        "id": 16,
-        "name": "سمبوسة",
-        "description": "سمبوسة محشية باللحم أو الجبن",
-        "price": 7.0
-      }
-    ],
-    "beverages": [
-      {
-        "id": 17,
-        "name": "عصير برتقال",
-        "description": "عصير برتقال طازج 100%",
-        "price": 5.0
-      },
-      {
-        "id": 18,
-        "name": "شاي",
-        "description": "شاي مثلج مع الليمون",
-        "price": 3.0
-      },
-      {
-        "id": 19,
-        "name": "عصير قصب",
-        "description": "عصير قصب السكر الطازج",
-        "price": 6.0
-      },
-      {
-        "id": 20,
-        "name": "قهوة عربية",
-        "description": "قهوة عربية محمصة مع الهيل",
-        "price": 4.0
-      },
-      {
-        "id": 21,
-        "name": "كركديه",
-        "description": "مشروب كركديه مثلج",
-        "price": 5.0
-      }
-    ]
+[
+  {
+    "id": "1",
+    "name": "ساندويتش شاورما",
+    "price": "500",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "description": "وصف",
+    "category": "Food "
+  },
+  {
+    "id": "2",
+    "name": "ساندويتش فول",
+    "price": "100",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "description": "وصف",
+    "category": "Food "
+  },
+  {
+    "id": "3",
+    "name": "عصير برتقال",
+    "price": "100",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "description": "undefined",
+    "category": "Bev"
+  },
+  {
+    "name": "Food",
+    "price": "500",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "description": "وصف"
+  },
+  {
+    "name": "H",
+    "price": "100",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "description": "Hhhhhhhhhh"
+  },
+  {
+    "name": "100",
+    "price": "100",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "description": " "
+  },
+  {
+    "name": "Sandwich ",
+    "price": "200",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "description": "Sandwich "
+  },
+  {
+    "name": "Food ",
+    "price": "200",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "description": "Hhh"
   }
-}
+]
