@@ -72,38 +72,51 @@
     "category": "beverages"
   },
   {
-    "name": "Food",
-    "price": "500",
+    "id": "10",
+    "name": "طبق رئيسي 1",
+    "price": "250",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
-    "description": "وصف",
-    "category": "food"
+    "description": "وصف طبق رئيسي 1",
+    "category": "main"
   },
   {
-    "name": "H",
-    "price": "100",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
-    "description": "Hhhhhhhhhh",
-    "category": "other"
-  },
-  {
-    "name": "100",
-    "price": "100",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
-    "description": " ",
-    "category": "other"
-  },
-  {
-    "name": "Sandwich",
-    "price": "200",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
-    "description": "Sandwich",
-    "category": "sandwiches"
-  },
-  {
-    "name": "Food",
-    "price": "200",
+    "id": "11",
+    "name": "طبق رئيسي 2",
+    "price": "300",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
-    "description": "Hhh",
-    "category": "food"
+    "description": "وصف طبق رئيسي 2",
+    "category": "main"
+  },
+  {
+    "id": "12",
+    "name": "مقبلات 1",
+    "price": "80",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "description": "وصف مقبلات 1",
+    "category": "appetizers"
+  },
+  {
+    "id": "13",
+    "name": "مقبلات 2",
+    "price": "90",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
+    "description": "وصف مقبلات 2",
+    "category": "appetizers"
+  },
+  {
+    "id": "14",
+    "name": "مشروب ساخن 1",
+    "price": "50",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
+    "description": "",
+    "category": "hot-drinks"
+  },
+  {
+    "id": "15",
+    "name": "مشروب ساخن 2",
+    "price": "60",
+    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
+    "description": "",
+    "category": "hot-drinks"
   }
 ]
