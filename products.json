@@ -462,13 +462,5 @@
     "description": "عصير\n",
     "category": "Bev",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
-  },
-  {
-    "id": "66",
-    "name": "Fruit ",
-    "price": "90",
-    "description": "Fruit ",
-    "category": "Food ",
-    "image": " "
   }
 ]
