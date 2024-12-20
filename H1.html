@@ -302,14 +302,327 @@
     </header>
 
     
+  <title>قائمة الهامبرجر</title>
+
+  <style>
+
+    /* التأكد من أن الصفحة لا تحتوي على أي هوامش */
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+    }
+
+    /* إعدادات الصفحة */
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    /* حاوية القائمة */
+
+    .menu-container {
+
+      position: fixed;
+
+      top: 50px; /* تعديل المسافة من أعلى الصفحة */
+
+      right: -75%; /* بدءًا من خارج الشاشة */
+
+      height: 80%; /* تحديد طول القائمة 80% من ارتفاع الشاشة */
+
+      width: 75%;
+
+      background-color: white;
+
+      box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1);
+
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: flex-start;
+
+      align-items: flex-start;
+
+      z-index: 1000;
+
+      padding: 20px;
+
+      overflow-y: auto;
+
+      transition: right 0.3s ease;
+
+    }
+
+    /* قائمة الهامبرجر */
+
+    .hamburger-menu {
+
+      display: flex;
+
+      flex-direction: column;
+
+      width: 100%;
+
+    }
+
+    /* عناصر القائمة */
+
+    .menu-item {
+
+      padding: 15px;
+
+      font-size: 18px;
+
+      color: #333;
+
+      border-bottom: 1px solid #eee;
+
+      cursor: pointer;
+
+      transition: background-color 0.3s;
+
+    }
+
+    /* التأثير عند المرور على العنصر */
+
+    .menu-item:hover {
+
+      background-color: #f0f0f0;
+
+    }
+
+    /* قائمة الاختيارات الفرعية */
+
+    .submenu {
+
+      display: none;
+
+      padding-left: 20px;
+
+      background-color: #f9f9f9;
+
+      width: 100%;
+
+    }
+
+    .submenu-item {
+
+      padding: 10px 15px;
+
+      font-size: 16px;
+
+      color: #555;
+
+      cursor: pointer;
+
+    }
+
+    .submenu-item:hover {
+
+      background-color: #e0e0e0;
+
+    }
+
+    /* زر الهامبرجر */
+
+    .hamburger-button {
+
+      position: fixed;
+
+      top: 20px;
+
+      right: 20px;
+
+      background-color: transparent;
+
+      border: none;
+
+      cursor: pointer;
+
+      z-index: 1100;
+
+      width: 40px;
+
+      height: 40px;
+
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      padding: 0;
+
+    }
+
+    /* الخطوط داخل الزر الهامبرجر */
+
+    .hamburger-button div {
+
+      width: 30px;
+
+      height: 4.5px;
+
+      background-color: #333;
+
+      transition: transform 0.3s ease, opacity 0.3s ease;
+
+    }
+
+    /* عند الضغط على الزر وتحويله إلى "X" */
+
+    .hamburger-button.open div:nth-child(1) {
+
+      transform: rotate(45deg) translateY(25px);
+
+    }
+
+    
+
+    .hamburger-button.open div:nth-child(2) {
+
+      opacity: 0;
+
+    }
+
+    .hamburger-button.open div:nth-child(3) {
+
+      transform: rotate(-45deg) translateY(-25px);
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- زر الهامبرجر لفتح القائمة -->
+
+  <button class="hamburger-button" id="hamburgerButton" onclick="toggleMenu()">
+
+    <div></div>
+
+    <div></div>
+
+    <div></div>
+
+  </button>
+
+ 
+  <!-- حاوية القائمة -->
+  <div class="menu-container" id="menu">
+    <div class="hamburger-menu">
+      <div class="menu-item" onclick="toggleSubMenu('foodMenu', 'foodArrow')">
+        <span>قائمة الطعام</span>
+        <div class="arrow" id="foodArrow"></div>
+      </div>
+      <div id="foodMenu" class="submenu">
+        <div class="submenu-item">برجر لحم</div>
+        <div class="submenu-item">برجر دجاج</div>
+        <div class="submenu-item">شاورما</div>
+        <div class="submenu-item">بيتزا</div>
+      </div>
+      <div class="menu-item" onclick="toggleSubMenu('homeMenu', 'homeArrow')">
+        <span>الصفحة الرئيسية</span>
+        <div class="arrow" id="homeArrow"></div>
+      </div>
+      <div id="homeMenu" class="submenu">
+        <div class="submenu-item">الصفحة 1</div>
+        <div class="submenu-item">الصفحة 2</div>
+      </div>
+      <div class="menu-item" onclick="toggleSubMenu('offersMenu', 'offersArrow')">
+        <span>عروض</span>
+        <div class="arrow" id="offersArrow"></div>
+      </div>
+      <div id="offersMenu" class="submenu">
+        <div class="submenu-item">عرض 1</div>
+        <div class="submenu-item">عرض 2</div>
+      </div>
+      <div class="menu-item" onclick="toggleSubMenu('contactMenu', 'contactArrow')">
+        <span>اتصل بنا</span>
+        <div class="arrow" id="contactArrow"></div>
+      </div>
+      <div id="contactMenu" class="submenu">
+        <div class="submenu-item">عنوان</div>
+        <div class="submenu-item">هاتف</div>
+      </div>
+      <div class="menu-item" onclick="toggleSubMenu('aboutMenu', 'aboutArrow')">
+        <span>عن المطعم</span>
+        <div class="arrow" id="aboutArrow"></div>
+      </div>
+      <div id="aboutMenu" class="submenu">
+        <div class="submenu-item">معلومات</div>
+        <div class="submenu-item">تاريخ</div>
+      </div>
+    </div>
+  </div>
+  <script>
+
+    // دالة لتبديل حالة القائمة (إظهار/إخفاء)
+
+    function toggleMenu() {
+
+      const menu = document.getElementById('menu');
+
+      const hamburgerButton = document.getElementById('hamburgerButton');
+
+      const currentRight = menu.style.right;
+
+      // إذا كانت القائمة خارج الشاشة، نُظهرها، وإذا كانت ظاهرة نُخفيها
+
+      if (currentRight === '0px') {
+
+        menu.style.right = '-75%';
+
+        hamburgerButton.classList.remove('open');  // إعادة الزر إلى الشكل الأول
+
+      } else {
+
+        menu.style.right = '0px';
+
+        hamburgerButton.classList.add('open');  // تحويل الزر إلى "X"
+
+      }
+
+    }
+
+    // دالة لتبديل عرض القائمة الفرعية
+
+    function toggleSubMenu(menuId) {
+
+      const submenu = document.getElementById(menuId);
+
+      submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+
+    }
+
+  </script>
+
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
  <!-- أزرار الفئات -->
     <div class="category-buttons">
         <button onclick="filterProducts('all')">كل المنتجات</button>
         <button onclick="filterProducts('main')">أطباق رئيسية</button>
         <button onclick="filterProducts('sandwiches')">سندوتشات</button>
-        <button onclick="filterProducts('appetizers')">مقبلات</button>
-        <button onclick="filterProducts('hot-drinks')">مشروبات ساخنة</button>
-        <button onclick="filterProducts('cold-drinks')">مشروبات باردة</button>
+    
+        
     </div>
 
     <div class="product-list" id="product-list"></div>
