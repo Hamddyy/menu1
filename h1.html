@@ -302,11 +302,11 @@
     </header>
 
     
+  
+
   <title>قائمة الهامبرجر</title>
 
   <style>
-
-    /* التأكد من أن الصفحة لا تحتوي على أي هوامش */
 
     * {
 
@@ -318,11 +318,77 @@
 
     }
 
-    /* إعدادات الصفحة */
-
     body {
 
       font-family: Arial, sans-serif;
+
+    }
+
+    /* زر الهامبرجر */
+
+    .hamburger-button {
+
+      position: fixed;
+
+      top: 20px;  /* المسافة من أعلى الصفحة */
+
+      right: 20px;  /* المسافة من الجهة اليسرى */
+
+      background-color: transparent;
+
+      border: none;
+
+      cursor: pointer;
+
+      z-index: 1100;  /* التأكد من أن الزر فوق باقي المحتوى */
+
+      width: 40px;
+
+      height: 40px;
+
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      padding: 0;
+
+    }
+
+    /* الخطوط داخل الزر الهامبرجر */
+
+    .hamburger-button div {
+
+      width: 30px;
+
+      height: 4.5px;
+
+      background-color: #333;
+
+      transition: transform 0.3s ease, opacity 0.3s ease;
+
+    }
+
+    /* عند الضغط على الزر وتحويله إلى "X" */
+
+    .hamburger-button.open div:nth-child(1) {
+
+      transform: rotate(45deg) translateY(25px);
+
+    }
+
+    .hamburger-button.open div:nth-child(2) {
+
+      opacity: 0;
+
+    }
+
+    .hamburger-button.open div:nth-child(3) {
+
+      transform: rotate(-45deg) translateY(-25px);
 
     }
 
@@ -332,11 +398,11 @@
 
       position: fixed;
 
-      top: 50px; /* تعديل المسافة من أعلى الصفحة */
+      top: 50px;  /* المسافة من أعلى الصفحة بعد الزر */
 
-      right: -75%; /* بدءًا من خارج الشاشة */
+      right: -75%;  /* بدءًا من خارج الشاشة */
 
-      height: 80%; /* تحديد طول القائمة 80% من ارتفاع الشاشة */
+      height: 80%;  /* تحديد طول القائمة 80% من ارتفاع الشاشة */
 
       width: 75%;
 
@@ -388,6 +454,12 @@
 
       cursor: pointer;
 
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
       transition: background-color 0.3s;
 
     }
@@ -397,6 +469,24 @@
     .menu-item:hover {
 
       background-color: #f0f0f0;
+
+    }
+
+    /* سهم اتجاه اليمين */
+
+    .arrow {
+
+      width: 10px;
+
+      height: 10px;
+
+      border-top: 2px solid red;
+
+      border-right: 2px solid red;
+
+      transform: rotate(45deg);
+
+      transition: transform 0.3s ease;
 
     }
 
@@ -432,76 +522,6 @@
 
     }
 
-    /* زر الهامبرجر */
-
-    .hamburger-button {
-
-      position: fixed;
-
-      top: 20px;
-
-      right: 20px;
-
-      background-color: transparent;
-
-      border: none;
-
-      cursor: pointer;
-
-      z-index: 1100;
-
-      width: 40px;
-
-      height: 40px;
-
-      display: flex;
-
-      flex-direction: column;
-
-      justify-content: space-between;
-
-      align-items: center;
-
-      padding: 0;
-
-    }
-
-    /* الخطوط داخل الزر الهامبرجر */
-
-    .hamburger-button div {
-
-      width: 30px;
-
-      height: 4.5px;
-
-      background-color: #333;
-
-      transition: transform 0.3s ease, opacity 0.3s ease;
-
-    }
-
-    /* عند الضغط على الزر وتحويله إلى "X" */
-
-    .hamburger-button.open div:nth-child(1) {
-
-      transform: rotate(45deg) translateY(25px);
-
-    }
-
-    
-
-    .hamburger-button.open div:nth-child(2) {
-
-      opacity: 0;
-
-    }
-
-    .hamburger-button.open div:nth-child(3) {
-
-      transform: rotate(-45deg) translateY(-25px);
-
-    }
-
   </style>
 
 </head>
@@ -520,54 +540,100 @@
 
   </button>
 
- 
   <!-- حاوية القائمة -->
+
   <div class="menu-container" id="menu">
+
     <div class="hamburger-menu">
+
       <div class="menu-item" onclick="toggleSubMenu('foodMenu', 'foodArrow')">
+
         <span>قائمة الطعام</span>
+
         <div class="arrow" id="foodArrow"></div>
+
       </div>
+
       <div id="foodMenu" class="submenu">
+
         <div class="submenu-item">برجر لحم</div>
+
         <div class="submenu-item">برجر دجاج</div>
+
         <div class="submenu-item">شاورما</div>
+
         <div class="submenu-item">بيتزا</div>
+
       </div>
+
       <div class="menu-item" onclick="toggleSubMenu('homeMenu', 'homeArrow')">
+
         <span>الصفحة الرئيسية</span>
+
         <div class="arrow" id="homeArrow"></div>
+
       </div>
+
       <div id="homeMenu" class="submenu">
+
         <div class="submenu-item">الصفحة 1</div>
+
         <div class="submenu-item">الصفحة 2</div>
+
       </div>
+
       <div class="menu-item" onclick="toggleSubMenu('offersMenu', 'offersArrow')">
+
         <span>عروض</span>
+
         <div class="arrow" id="offersArrow"></div>
+
       </div>
+
       <div id="offersMenu" class="submenu">
+
         <div class="submenu-item">عرض 1</div>
+
         <div class="submenu-item">عرض 2</div>
+
       </div>
+
       <div class="menu-item" onclick="toggleSubMenu('contactMenu', 'contactArrow')">
+
         <span>اتصل بنا</span>
+
         <div class="arrow" id="contactArrow"></div>
+
       </div>
+
       <div id="contactMenu" class="submenu">
+
         <div class="submenu-item">عنوان</div>
+
         <div class="submenu-item">هاتف</div>
+
       </div>
+
       <div class="menu-item" onclick="toggleSubMenu('aboutMenu', 'aboutArrow')">
+
         <span>عن المطعم</span>
+
         <div class="arrow" id="aboutArrow"></div>
+
       </div>
+
       <div id="aboutMenu" class="submenu">
+
         <div class="submenu-item">معلومات</div>
+
         <div class="submenu-item">تاريخ</div>
+
       </div>
+
     </div>
+
   </div>
+
   <script>
 
     // دالة لتبديل حالة القائمة (إظهار/إخفاء)
@@ -598,13 +664,29 @@
 
     }
 
-    // دالة لتبديل عرض القائمة الفرعية
+    // دالة لتبديل عرض القائمة الفرعية والسهم
 
-    function toggleSubMenu(menuId) {
+    function toggleSubMenu(menuId, arrowId) {
 
       const submenu = document.getElementById(menuId);
 
-      submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+      const arrow = document.getElementById(arrowId);
+
+      // إذا كانت القائمة الفرعية ظاهرة، نخفيها وإذا كانت مخفية نعرضها
+
+      if (submenu.style.display === 'block') {
+
+        submenu.style.display = 'none';
+
+        arrow.style.transform = 'rotate(45deg)';  // السهم يعود للجهة اليمنى
+
+      } else {
+
+        submenu.style.display = 'block';
+
+        arrow.style.transform = 'rotate(135deg)';  // السهم يتحول لأسفل
+
+      }
 
     }
 
@@ -612,7 +694,15 @@
 
 </body>
 
-</html>
+
+<!-- partial -->
+  
+</body>
+    
+
+ 
+
+
 <!-- partial -->
   
 </body>
