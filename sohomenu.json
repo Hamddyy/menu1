@@ -871,8 +871,222 @@
         "category": "Alc. Cocktails Imp.",
         "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
     },
-
-
+    {
+        "id": "1",
+        "name": "Cocacola Canz",
+        "price": "25",
+        "description": "Description of Cocacola Canz.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "M Water Small",
+        "price": "15",
+        "description": "Description of M Water Small.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Sprite Canz",
+        "price": "20",
+        "description": "Description of Sprite Canz.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Cocacola Z Canz",
+        "price": "50",
+        "description": "Description of Cocacola Z Canz.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "5",
+        "name": "M Water Large",
+        "price": "15",
+        "description": "Description of M Water Large.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Fanta O Canz",
+        "price": "10",
+        "description": "Description of Fanta O Canz.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Tonic",
+        "price": "50",
+        "description": "Description of Tonic.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Schweps Pinappl",
+        "price": "20",
+        "description": "Description of Schweps Pinappl.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Sparkling Water",
+        "price": "75",
+        "description": "Description of Sparkling Water.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Schweps Pomegrat",
+        "price": "20",
+        "description": "Description of Schweps Pomegrat.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Soda",
+        "price": "50",
+        "description": "Description of Soda.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "12",
+        "name": "SF M Water Small",
+        "price": "20",
+        "description": "Description of SF M Water Small.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Soda Draft",
+        "price": "50",
+        "description": "Description of Soda Draft.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Soft Drink Glass",
+        "price": "50",
+        "description": "Description of Soft Drink Glass.",
+        "category": "Soft Drink",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Jameson",
+        "price": "540",
+        "description": "Description of Jameson.",
+        "category": "Whisky",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "16",
+        "name": "Jim Beam",
+        "price": "550",
+        "description": "Description of Jim Beam.",
+        "category": "Whisky",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "17",
+        "name": "Jack Daniels",
+        "price": "900",
+        "description": "Description of Jack Daniels.",
+        "category": "Whisky",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "18",
+        "name": "Black Label",
+        "price": "1100",
+        "description": "Description of Black Label.",
+        "category": "Whisky",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "19",
+        "name": "Red Label",
+        "price": "600",
+        "description": "Description of Red Label.",
+        "category": "Whisky",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "20",
+        "name": "Bushmills",
+        "price": "550",
+        "description": "Description of Bushmills.",
+        "category": "Whisky",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "21",
+        "name": "Chivas Regal",
+        "price": "1100",
+        "description": "Description of Chivas Regal.",
+        "category": "Whisky",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "22",
+        "name": "Teachers",
+        "price": "550",
+        "description": "Description of Teachers.",
+        "category": "Whisky",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "23",
+        "name": "Dewars",
+        "price": "500",
+        "description": "Description of Dewars.",
+        "category": "Whisky",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "24",
+        "name": "Absolut",
+        "price": "495",
+        "description": "Description of Absolut.",
+        "category": "Vodka",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "25",
+        "name": "Smirnoff",
+        "price": "500",
+        "description": "Description of Smirnoff.",
+        "category": "Vodka",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "26",
+        "name": "Finlandia",
+        "price": "500",
+        "description": "Description of Finlandia.",
+        "category": "Vodka",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "27",
+        "name": "Vodka Grey Goose",
+        "price": "850",
+        "description": "Description of Vodka Grey Goose.",
+        "category": "Vodka",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
 
 
 
