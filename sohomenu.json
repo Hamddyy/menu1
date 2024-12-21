@@ -1087,10 +1087,224 @@
         "category": "Vodka",
         "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
     },
+    {
+        "id": "1",
+        "name": "Gordon",
+        "price": "500",
+        "description": "Description of Gordon.",
+        "category": "Gin",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Gin Bombay",
+        "price": "600",
+        "description": "Description of Gin Bombay.",
+        "category": "Gin",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Beefeater",
+        "price": "480",
+        "description": "Description of Beefeater.",
+        "category": "Gin",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Bacardi Gold",
+        "price": "545",
+        "description": "Description of Bacardi Gold.",
+        "category": "Rum",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Captain Morgan",
+        "price": "550",
+        "description": "Description of Captain Morgan.",
+        "category": "Rum",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Bacardi Silver",
+        "price": "550",
+        "description": "Description of Bacardi Silver.",
+        "category": "Rum",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "7",
+        "name": "ID Water Melon",
+        "price": "175",
+        "description": "Description of ID Water Melon.",
+        "category": "I.D Flavors",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "8",
+        "name": "ID Gin Lem&Mint",
+        "price": "185",
+        "description": "Description of ID Gin Lem&Mint.",
+        "category": "I.D Flavors",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "9",
+        "name": "ID Energy",
+        "price": "165",
+        "description": "Description of ID Energy.",
+        "category": "I.D Flavors",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Fernet Branca",
+        "price": "450",
+        "description": "Description of Fernet Branca.",
+        "category": "Liquers",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Amaretto",
+        "price": "415",
+        "description": "Description of Amaretto.",
+        "category": "Liquers",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Malibu",
+        "price": "400",
+        "description": "Description of Malibu.",
+        "category": "Liquers",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Kahlua",
+        "price": "450",
+        "description": "Description of Kahlua.",
+        "category": "Liquers",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Baileys",
+        "price": "0",
+        "description": "Description of Baileys.",
+        "category": "Liquers",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Purple Haze",
+        "price": "485",
+        "description": "Description of Purple Haze.",
+        "category": "Alc Cocktails Local",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "16",
+        "name": "Electric Lemoned",
+        "price": "460",
+        "description": "Description of Electric Lemoned.",
+        "category": "Alc Cocktails Local",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "17",
+        "name": "Sauza Sliver",
+        "price": "550",
+        "description": "Description of Sauza Sliver.",
+        "category": "Tequila",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "18",
+        "name": "Campari",
+        "price": "400",
+        "description": "Description of Campari.",
+        "category": "Apperatives",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "19",
+        "name": "Special Shisha",
+        "price": "250",
+        "description": "Description of Special Shisha.",
+        "category": "Shisha",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "20",
+        "name": "Normal Shisha",
+        "price": "175",
+        "description": "Description of Normal Shisha.",
+        "category": "Shisha",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "21",
+        "name": "Sh Whisky",
+        "price": "600",
+        "description": "Description of Sh Whisky.",
+        "category": "Shisha",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "22",
+        "name": "Staff Shisha",
+        "price": "40",
+        "description": "Description of Staff Shisha.",
+        "category": "Shisha",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "23",
+        "name": "Sh Sangria",
+        "price": "600",
+        "description": "Description of Sh Sangria.",
+        "category": "Shisha",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "24",
+        "name": "Sh Grapes L",
+        "price": "600",
+        "description": "Description of Sh Grapes L.",
+        "category": "Shisha",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "25",
+        "name": "Sh Mint L",
+        "price": "600",
+        "description": "Description of Sh Mint L.",
+        "category": "Shisha",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "26",
+        "name": "Sh Orange L",
+        "price": "600",
+        "description": "Description of Sh Orange L.",
+        "category": "Shisha",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "27",
+        "name": "Sh Banana L",
+        "price": "600",
+        "description": "Description of Sh Banana L.",
+        "category": "Shisha",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
 
 
-
-    
 
     
 ]
