@@ -462,5 +462,223 @@
         "description": "Delicious and freshly prepared.",
         "category": "Soup",
         "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
-    }
+    },
+     {
+        "id": "1",
+        "name": "Tea",
+        "price": "42.99",
+        "description": "A soothing hot drink.",
+        "category": "Hot Drinks",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Espresso",
+        "price": "60.96",
+        "description": "Strong and rich coffee.",
+        "category": "Hot Drinks",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Cafe Late",
+        "price": "46.13",
+        "description": "Smooth and creamy coffee.",
+        "category": "Hot Drinks",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Cappuccino",
+        "price": "33.32",
+        "description": "A classic Italian coffee.",
+        "category": "Hot Drinks",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "5",
+        "name": "American Coffee",
+        "price": "60.00",
+        "description": "Bold and flavorful coffee.",
+        "category": "Hot Drinks",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Infusion",
+        "price": "12.50",
+        "description": "Herbal and aromatic drink.",
+        "category": "Hot Drinks",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Layali Lebanon",
+        "price": "163.63",
+        "description": "A traditional Lebanese dessert.",
+        "category": "Dessert",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Rice Pudding",
+        "price": "24.86",
+        "description": "Creamy and sweet dessert.",
+        "category": "Dessert",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Fruit Platter",
+        "price": "13.18",
+        "description": "Fresh and healthy fruit selection.",
+        "category": "Dessert",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Meghli",
+        "price": "158.33",
+        "description": "A spiced rice pudding dessert.",
+        "category": "Dessert",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Fresh Mango Juice",
+        "price": "120.00",
+        "description": "Refreshing and sweet mango juice.",
+        "category": "Fresh Juice",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Fresh Lemon Juice",
+        "price": "90.00",
+        "description": "Zesty and refreshing lemon juice.",
+        "category": "Fresh Juice",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Yellow Rice",
+        "price": "90.00",
+        "description": "Fluffy and flavorful rice.",
+        "category": "Rice & Noodles",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Rocca Beetroot Salad",
+        "price": "130.00",
+        "description": "Fresh and vibrant salad.",
+        "category": "Salad",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Spicy Garlic",
+        "price": "91.43",
+        "description": "A spicy garlic sauce.",
+        "category": "Sides & Topping",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "16",
+        "name": "Garlic Sauce",
+        "price": "70.31",
+        "description": "A creamy garlic sauce.",
+        "category": "Sides & Topping",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "17",
+        "name": "Grilled Vegetable",
+        "price": "80.00",
+        "description": "A mix of grilled vegetables.",
+        "category": "Sides & Topping",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "18",
+        "name": "Canned Juice Small",
+        "price": "50.00",
+        "description": "A small can of juice.",
+        "category": "Canned Juice",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "19",
+        "name": "Canned Juice",
+        "price": "50.00",
+        "description": "A can of juice.",
+        "category": "Canned Juice",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "20",
+        "name": "Stella Cans Large",
+        "price": "189.40",
+        "description": "A large can of Stella beer.",
+        "category": "Beer Local",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "21",
+        "name": "Heineken D Large",
+        "price": "233.98",
+        "description": "A large can of Heineken beer.",
+        "category": "Beer Local",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "22",
+        "name": "Heineken Cans",
+        "price": "191.77",
+        "description": "A can of Heineken beer.",
+        "category": "Beer Local",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "23",
+        "name": "Sakara Cans",
+        "price": "190.97",
+        "description": "A can of Sakara beer.",
+        "category": "Beer Local",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+    {
+        "id": "24",
+        "name": "Desperados Beer",
+        "price": "200.00",
+        "description": "A bottle of Desperados beer.",
+        "category": "Beer Local",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
+    },
+    {
+        "id": "25",
+        "name": "Heineken D Small",
+        "price": "190.13",
+        "description": "A small can of Heineken beer.",
+        "category": "Beer Local",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
+    },
+    {
+        "id": "26",
+        "name": "Mister Max",
+        "price": "179.88",
+        "description": "A bottle of Mister Max beer.",
+        "category": "Beer Local",
+        "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
+    },
+
+
+
+
+
+
+
+    
+
+    
 ]
