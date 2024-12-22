@@ -160,14 +160,6 @@
     "category": "sandwiches"
   },
   {
-    "id": "23",
-    "name": "ملوخية بالأرانب",
-    "price": "20",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
-    "description": "وصف ملوخية بالأرانب",
-    "category": "main"
-  },
-  {
     "id": "24",
     "name": "كشري",
     "price": "39.08",
@@ -184,27 +176,11 @@
     "category": "main"
   },
   {
-    "id": "26",
-    "name": "عصير تفاح",
-    "price": "33.82",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
-    "description": "وصف عصير تفاح",
-    "category": "cold-drinks"
-  },
-  {
     "id": "27",
     "name": "قهوة عربية",
     "price": "33.44",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg",
     "description": "وصف قهوة عربية",
-    "category": "hot-drinks"
-  },
-  {
-    "id": "28",
-    "name": "شاي",
-    "price": "46.69",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
-    "description": "وصف شاي",
     "category": "hot-drinks"
   },
   {
@@ -238,14 +214,6 @@
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
     "description": "وصف سمبوسة",
     "category": "appetizers"
-  },
-  {
-    "id": "33",
-    "name": "عصير برتقال",
-    "price": "33.62",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg",
-    "description": "وصف عصير برتقال",
-    "category": "cold-drinks"
   },
   {
     "id": "34",
@@ -312,14 +280,6 @@
     "category": "cold-drinks"
   },
   {
-    "id": "42",
-    "name": "عصير برتقال",
-    "price": "10.64",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg",
-    "description": "وصف عصير برتقال",
-    "category": "cold-drinks"
-  },
-  {
     "id": "43",
     "name": "حمص",
     "price": "34.58",
@@ -336,14 +296,6 @@
     "category": "sandwiches"
   },
   {
-    "id": "45",
-    "name": "عصير برتقال",
-    "price": "60",
-    "description": "وصف عصير برتقال",
-    "category": "cold-drinks",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
-  },
-  {
     "id": "46",
     "name": "قهوة عربية",
     "price": "21.2",
@@ -357,14 +309,6 @@
     "price": "70",
     "description": "وصف مقالي خضروات",
     "category": "appetizers",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
-  },
-  {
-    "id": "48",
-    "name": "عصير قصب",
-    "price": "50",
-    "description": "وصف عصير قصب",
-    "category": "cold-drinks",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
   },
   {
@@ -392,14 +336,6 @@
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho2.jpg"
   },
   {
-    "id": "52",
-    "name": "عصير تفاح",
-    "price": "60",
-    "description": "وصف عصير تفاح",
-    "category": "cold-drinks",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
-  },
-  {
     "id": "53",
     "name": "برجر لحم",
     "price": "400",
@@ -416,51 +352,11 @@
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   },
   {
-    "id": "55",
-    "name": "عصير قصب",
-    "price": "180",
-    "description": "وصف عصير قصب",
-    "category": "cold-drinks",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
-  },
-  {
-    "id": "56",
-    "name": "عصير تفاح",
-    "price": "300",
-    "description": "وصف عصير تفاح",
-    "category": "cold-drinks",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
-  },
-  {
     "id": "57",
     "name": "سمبوسة",
     "price": "550",
     "description": "وصف سمبوسة",
     "category": "appetizers",
     "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
-  },
-  {
-    "id": "58",
-    "name": "ملوخية بالأرانب",
-    "price": "500",
-    "description": "وصف ملوخية بالأرانب",
-    "category": "main",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
-  },
-  {
-    "id": "67",
-    "name": "H2",
-    "price": "2",
-    "description": "R",
-    "category": "Y",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho1.jpg"
-  },
-  {
-    "id": " 60",
-    "name": "نعناع",
-    "price": "60",
-    "description": "عصير\n",
-    "category": "Bev",
-    "image": "https://raw.githubusercontent.com/Hamddyy/Res/refs/heads/main/images/soho3.jpg"
   }
 ]
